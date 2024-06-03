@@ -21,7 +21,7 @@ public class EmployeeController {
 
     @GetMapping
     public List<Employee> gettingData(){
-     return   employeeService.gettingData();
+     return employeeService.gettingData();
     }
 
 
