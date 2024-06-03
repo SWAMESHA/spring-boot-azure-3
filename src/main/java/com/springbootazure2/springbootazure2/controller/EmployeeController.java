@@ -18,11 +18,9 @@ public class EmployeeController {
     public Employee created(@RequestBody Employee employee){
        return employeeService.created(employee);
     }
-
+    
     @GetMapping
     public List<Employee> gettingData(){
      return employeeService.gettingData();
     }
-
-
 }
